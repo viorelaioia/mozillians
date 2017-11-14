@@ -138,14 +138,9 @@ See get_context() for example usage.
 
 Server architecture
 -------------------
-**Dev**
-
-- *URL:* http://mozillians-dev.allizom.org/
-- *Deploy:* Automatic after code merge, if unit tests pass
-
 **Stage**
 
-- *URL:* http://mozillians.allizom.org/
+- *URL:* https://web-mozillians-staging.production.paas.mozilla.community/
 - *Deploy:* Manual (Chief)
 
 **Production**
@@ -161,11 +156,11 @@ In 2013 Mozillians code is released on Thursdays, after QA and developers agree 
 
 What to work on
 ---------------
-Mozillians development follows a `schedule`_ and a `roadmap`_ managed by the `Mozillians product and development team`_. Bugs that the team has committed to work on are generally given a *target milestone* and are *assigned* to a developer. Other bugs are fair game; but they're not all aligned with the product's current evolution. So if you are not familiar with the project and its roadmap, you may want to find one of the core team in IRC and ask before working on a particular bug. 
+Mozillians development follows a `schedule`_ and a `roadmap`_ managed by the `Mozillians product and development team`_. Bugs that the team has committed to work on are generally given a *target milestone* and are *assigned* to a developer. Other bugs are fair game; but they're not all aligned with the product's current evolution. So if you are not familiar with the project and its roadmap, you may want to find one of the core team in IRC and ask before working on a particular bug.
 
-- `All outstanding bugs`_ 
-- `Good first bugs`_ 
-- `Submit a bug`_ 
+- `All outstanding bugs`_
+- `Good first bugs`_
+- `Submit a bug`_
 
 .. _Git book: http://git-scm.com/book
 .. _good git commit message: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
